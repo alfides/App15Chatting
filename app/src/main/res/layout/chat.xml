@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Layout Definition : Layout 충첩 및 ETC -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:orientation="vertical">
+
+    <!-- Layout Definition : Layout 충첩 및 ETC -->
+    <ScrollView 
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_transparent_yellow"
+        android:layout_weight="95">
+        
+         <!--  <TextView
+	        android:id="@+id/textView_content"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="20sp"
+	        android:lineSpacingMultiplier="1.5"/>  -->
+		
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+		<LinearLayout
+    	        android:id="@+id/message_in_layout"
+          	    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical" >
+        	
+		<!-- message.xml 이 inflation 되는 위치 -->	    
+		    
+		</LinearLayout>
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->		
+
+    </ScrollView>
+
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+        android:layout_weight="5" >
+    
+	    <EditText
+	        android:id="@+id/edittext_message"
+	        android:layout_width="1dp"
+	        android:layout_height="match_parent" 
+	        android:layout_weight="75"
+	        android:hint="입력하고 전송 Click"
+	        android:textColorHint="@color/color_ltgray">
+	        
+        	<requestFocus />
+        	
+     	</EditText>
+    
+	    <Button
+	        android:id="@+id/button_send"
+	        android:layout_width="1dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="25"
+	        android:text="전송" />
+
+   	</LinearLayout>
+
+</LinearLayout>

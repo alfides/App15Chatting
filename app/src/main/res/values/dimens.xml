@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- UI 구성시 자주 사용되는 value  Meta-Data -->
+<resources>
+    
+	<!-- Layout  :: android:XXX-->
+    <dimen name="layout_padding">10dp</dimen>
+    <dimen name="layout_horizontal_padding">10dp</dimen>
+    <dimen name="layout_vertical_padding">10dp</dimen>
+    
+    <!-- View  :: android:layout_XXX -->
+    <dimen name="view_layout_margin">5dp</dimen>
+    <dimen name="view_layout_horizontal_margin">5dp</dimen>
+    <dimen name="view_layout_vertical_margin">5dp</dimen>
+    
+    <!-- View :: android:XXX-->
+    <dimen name="view_padding">7dp</dimen>
+    <dimen name="view_layout_horizontal_padding">7dp</dimen>
+    <dimen name="view_layout_vertical_padding">7dp</dimen>
+    
+</resources>
