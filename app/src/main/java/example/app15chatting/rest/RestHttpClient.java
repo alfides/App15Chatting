@@ -25,7 +25,7 @@ public class RestHttpClient {
 
 		HttpClient httpClient = new DefaultHttpClient();
 
-		String url= 	"http://192.168.0.60:8080/user/json/getUser/"+userId.trim();
+		String url= 	"http://192.168.0.90:1050/user/json/getUser/"+userId.trim();
 
 		HttpGet httpGet = new HttpGet(url);
 		httpGet.setHeader("Accept", "application/json");
@@ -58,7 +58,7 @@ public class RestHttpClient {
 
 		HttpClient httpClient = new DefaultHttpClient();
 
-		String url= "http://192.168.123.185:8080/user/json/getUser/"+userId.trim();
+		String url= "http://192.168.0.90:1050" +"/user/json/getUser/"+userId.trim();
 
 		HttpGet httpGet = new HttpGet(url);
 		httpGet.setHeader("Accept", "application/json");
